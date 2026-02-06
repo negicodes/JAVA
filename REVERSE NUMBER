@@ -1,3 +1,41 @@
 =============================================                  REVERSE NUMBER              ============================================
 
 
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("no.dalo");
+        int n = sc.nextInt();
+        int rev = 0 ;
+        while(n>0){
+            rev = rev*10 + n%10 ;
+            n = n/10 ;
+        }
+        System.out.print(rev);
+    }
+}
+
+
+
+
+
+
+
+
+=====================                    PYTHON               ==========================
+
+
+
+
+
+
+n = 1234
+rev_no = 0
+while (n>0):
+  rev_no = rev_no * 10 + n%10
+  n = n//10
+print(n)
+
+
