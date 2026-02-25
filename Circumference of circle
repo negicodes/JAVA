@@ -1,0 +1,14 @@
+//Write a function that takes in the radius as input and returns the circumference of a circle
+
+import java.util.*;
+class Main{
+    public static double cf(int r){
+        return 2* Math.PI* r;
+    }
+    public static void main(String[]args){
+        Scanner sc =  new Scanner(System.in);
+        int r = sc.nextInt();
+
+        System.out.println("circumfrence of circle is =  "+ cf(r));
+    }
+}
