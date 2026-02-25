@@ -3,7 +3,6 @@
 import java.util.*;
 class Main{
     public static void main(String[]  args){
-        Scanner sc =  new Scanner(System.in);
         do{
             System.out.print("Infinite loop runing");
         }while (true);
