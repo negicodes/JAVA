@@ -1,0 +1,49 @@
+//Write a function that takes in age as input and returns if that person is eligible to vote or not.
+// A person of age > 18 is eligible to vote
+
+import java.util.*;
+class Main{
+    public static boolean voting(int age){
+        if(age<18){
+            return false;
+        }else {
+            return true;
+        }
+    }
+
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int age =  sc.nextInt();
+        if (voting(age)){
+            System.out.println("You are  eligible to vote");
+        }else{
+            System.out.println("You are not eligible to vote");
+        }
+    }
+}
+
+
+
+
+============================  AVERAGE   ==================================
+
+import java.util.*;
+    class Main{
+
+        public static int Average(int a , int b , int c) {
+          return  (a+b+c)/3;
+        }
+        public static void main(String[] args ){
+            Scanner sc = new Scanner(System.in);
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            int c = sc.nextInt();
+
+            int avgg = Average(a,b,c);
+
+
+            System.out.print(avgg);
+
+
+        }
+    }
